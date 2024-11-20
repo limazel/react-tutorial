@@ -1,10 +1,13 @@
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+import Home from "./components/Home.jsx";
 
-
-function App() {
-
+export default function App() {
   return (
-   <h1>Hello World!</h1>
-  )
-}
-
-export default App
+    <>
+      <Navbar />
+      <Home/>
+      <Footer/>
+    </>
+  );
+};
