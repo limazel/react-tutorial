@@ -1,7 +1,5 @@
-export default function Gorev({taskDetails}) {
-
-    if (!taskDetails.is_active) return null;
-  
+export default function Gorev({ taskDetails }) {
+  if (!taskDetails.is_active) return null;
 
   return (
     <div className="col">
@@ -14,14 +12,13 @@ export default function Gorev({taskDetails}) {
           <h2 className="card-title">{taskDetails.title}</h2>
           <p className="card-text">{taskDetails.description}</p>
 
-
-
-          
-          <span className={`badge ${taskDetails.price >= 10 ? "text-bg-danger" : "text-bg-primary"}`}>{taskDetails.price} $</span>
-
-
-
-
+          <span
+            className={`badge ${
+              taskDetails.price >= 10 ? "text-bg-danger" : "text-bg-primary"
+            }`}
+          >
+            {taskDetails.price} $
+          </span>
         </div>
       </div>
     </div>
