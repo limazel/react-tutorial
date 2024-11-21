@@ -1,7 +1,8 @@
 export const tasks = [
   {
     title: "Watch Video",
-    description: "Complete the mission and earn money",
+    description:
+      "Complete the mission and earn money.Complete the mission and earn money.Complete the mission and earn money.Complete the mission and earn money.Complete the mission and earn money.Complete the mission and earn money.Complete the mission and earn money.Complete the mission and earn money.Complete the mission and earn money",
     image: "video.jpg",
     price: 2,
     is_active: true,
